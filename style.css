@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("backPic.jpg");
+	
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: grey;
+}
+img {
+	margin-right: 20px;
+}
+
+
+.insideBlock {
+	display: flex;
+	border: 1px solid blue;
+	height: 400px;
+	width: 400px;
+	background-color: white;
+	opacity: 0.5;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.block_1 {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 100px;
+	
+	
+}
+
+.block_2 {
+	/* padding-top: 10%; */
+	/* padding-bottom: 20%; */
+	margin-top: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.block_3 {
+	/* padding-top: 10%; */
+	/* padding-bottom: 20%; */
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.BUTTON_EMR {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color: #FFFFFF;
+	font-family: Open Sans;
+	font-size: 35px;
+	font-weight: 100;
+	padding: 40px;
+	background-color: #22AFF6;
+	box-shadow: 1px 1px 20px 0px #000000;
+	-webkit-box-shadow: 1px 1px 20px 0px #000000;
+	-moz-box-shadow: 1px 1px 20px 0px #000000;
+	text-shadow: 1px 1 px 20px #000000;
+	border: solid #337FED 1px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.BUTTON_EMR:hover {
+	background: #157FD0;
+	text-decoration: none;
+}
